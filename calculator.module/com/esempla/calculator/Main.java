@@ -2,10 +2,10 @@ package com.esempla.calculator;
 
 import com.esempla.lib.Math;
 
-public class Demo {
+public class Main {
     public static void main(String[] args) {
         if (args.length < 2) {
-            throw new RuntimeException("Enter two integer!");
+            throw new RuntimeException("Enter two integers!");
         } else {
             final Integer a = Integer.valueOf(args[0]);
             final Integer b = Integer.valueOf(args[1]);
